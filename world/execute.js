@@ -92,7 +92,7 @@ const timeline = [
   },
 
   // NEW: Clear screen for better readability on small screens
-  { time: 58.0, func: clearScreen },
+  { time: 58.75, func: clearScreen },
 
   {
     time: 59.223,
@@ -578,7 +578,7 @@ function genderSwitch() {
       el.style.left = `${40 + i * 20}%`;
       el.style.top = "30%";
       container.appendChild(el);
-      setTimeout(() => el.remove(), 1000);
+      setTimeout(() => el.remove(), 950);
     }, i * 500);
   });
 }
@@ -594,7 +594,7 @@ function showTimeDisplay() {
       el.style.left = `${30 + i * 25}%`;
       el.style.top = "40%";
       container.appendChild(el);
-      setTimeout(() => el.remove(), 1500);
+      setTimeout(() => el.remove(), 1200);
     }, i * 600);
   });
 }
@@ -610,7 +610,7 @@ function roleSwitch() {
       el.style.left = `${35 + i * 30}%`;
       el.style.top = "35%";
       container.appendChild(el);
-      setTimeout(() => el.remove(), 1000);
+      setTimeout(() => el.remove(), 950);
     }, i * 400);
   });
 }

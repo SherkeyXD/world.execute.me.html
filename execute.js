@@ -349,6 +349,7 @@ let animationFrameId;
 
 function startExperience() {
   overlay.classList.add("hidden");
+  song.volume = 0.3;
   song
     .play()
     .then(() => {

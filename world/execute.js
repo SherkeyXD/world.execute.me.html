@@ -813,8 +813,8 @@ function showBSOD() {
                     <p>A problem has been detected and world has been shut down to prevent damage.</p>
                     <p>ILLEGAL_ARGUMENT_EXCEPTION</p>
                     <br>
-                    <p>If this is the first time you've seen this stop error screen, restart your simulation. If this screen appears again, follow these steps:</p>
-                    <p>Check to be sure you have adequate connection. If a new component is installed, ask your administrator or manufacturer for any updates you might need.</p>
+                    <p>If this is the first time you've seen this stop error screen, restart your simulation.<br>If this screen appears again, follow these steps:</p>
+                    <p>Check to be sure you have adequate connection. If a new component is installed,<br>ask your administrator or manufacturer for any updates you might need.</p>
                     <br>
                     <p>Technical Information:</p>
                     <p>*** STOP: 0xDEADBEEF (0x30783134, 0x352e7072, 0x74732e73, 0x70616365)</p>

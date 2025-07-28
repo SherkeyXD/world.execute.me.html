@@ -813,7 +813,7 @@ function showBSOD() {
                     <p>Check to be sure you have adequate connection. If a new component is installed, ask your administrator or manufacturer for any updates you might need.</p>
                     <br>
                     <p>Technical Information:</p>
-                    <p>*** STOP: 0x0000004E (0x00000099, 0x00000000, 0x00000000, 0x00000000)</p>
+                    <p>*** STOP: 0xDEADBEEF (0x30783134, 0x352e7072, 0x74732e73, 0x70616365)</p>
                     <p class="bsod-dump">${dump}</p>
                 </div>`;
   container.appendChild(bsod);

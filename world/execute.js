@@ -475,7 +475,7 @@ function currentSwitch() {
 
 // Blind Vision Effect (updated: no rotation)
 function blindVision() {
-  addClass({ target: container, className: "blind dizzy", duration: 3000 });
+  addClass({ target: container, className: "blind dizzy", duration: 2000 });
 }
 
 // Time Travel Effect

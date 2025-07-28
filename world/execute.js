@@ -610,7 +610,7 @@ function roleSwitch() {
       el.style.left = `${35 + i * 30}%`;
       el.style.top = "35%";
       container.appendChild(el);
-      setTimeout(() => el.remove(), 1200);
+      setTimeout(() => el.remove(), 1000);
     }, i * 400);
   });
 }

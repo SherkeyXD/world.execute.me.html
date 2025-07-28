@@ -241,7 +241,11 @@ const timeline = [
   },
   { time: 125.708, func: typeLine, args: { text: "Challenging your god..." } },
   { time: 128.661, func: typeLine, args: { text: "You have made some" } },
-  { time: 131.224, func: showEmphasis, args: { text: "ILLEGAL ARGUMENTS" } },
+  {
+    time: 131.224,
+    func: showEmphasis,
+    args: { text: "ILLEGAL ARGUMENTS", className: "error" },
+  },
 
   // Interlude 2: BSOD
   { time: 133.5, func: showBSOD },
@@ -893,10 +897,8 @@ function showTrappedInLove() {
 function finalExecution() {
   const final = document.createElement("div");
   final.id = "overlay";
-  final.innerHTML = `
-    <span>[execution@prts.space]</span>
-    <span>$ <span id="overlay-cursor">_</span></span>
-  `;
+  final.innerHTML =
+    '<span>[execution@prts.space]$ <span id="overlay-cursor">_</span></span>';
   document.body.appendChild(final);
 }
 

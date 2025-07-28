@@ -578,7 +578,7 @@ function genderSwitch() {
       el.style.left = `${40 + i * 20}%`;
       el.style.top = "30%";
       container.appendChild(el);
-      setTimeout(() => el.remove(), 1500);
+      setTimeout(() => el.remove(), 1000);
     }, i * 500);
   });
 }

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=VT323&family=Share+Tech+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Emoji:wght@300..700&display=swap");
 
 :root {
   --main-bg: #0a0a0a;
@@ -358,6 +359,7 @@ html {
 .emoji-display {
   position: absolute;
   font-size: 3em;
+  font-family: "Noto Emoji", sans-serif;
   animation: bounceIn 0.8s ease-out;
   z-index: 15;
 }

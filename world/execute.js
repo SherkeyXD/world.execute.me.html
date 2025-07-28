@@ -577,7 +577,6 @@ function genderSwitch() {
       el.textContent = symbol;
       el.style.left = `${40 + i * 20}%`;
       el.style.top = "30%";
-      el.style.color = i === 0 ? "#FF69B4" : "#4169E1";
       container.appendChild(el);
       setTimeout(() => el.remove(), 1500);
     }, i * 500);
@@ -610,7 +609,6 @@ function roleSwitch() {
       el.textContent = role;
       el.style.left = `${35 + i * 30}%`;
       el.style.top = "35%";
-      el.style.color = i === 0 ? "#FF4444" : "#8A2BE2";
       container.appendChild(el);
       setTimeout(() => el.remove(), 1200);
     }, i * 400);

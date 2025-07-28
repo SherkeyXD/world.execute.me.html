@@ -187,7 +187,7 @@ const timeline = [
   },
 
   // NEW: Clear screen for better readability on small screens
-  { time: 102.5, func: clearScreen },
+  { time: 103.25, func: clearScreen },
 
   {
     time: 103.489,

@@ -891,7 +891,13 @@ function showTrappedInLove() {
 }
 
 function finalExecution() {
-  showEmphasis({ text: "EXECUTION", className: "error" });
+  const final = document.createElement("div");
+  final.id = "overlay";
+  final.innerHTML = `
+    <span>[execution@prts.space]</span>
+    <span>$ <span id="overlay-cursor">_</span></span>
+  `;
+  document.body.appendChild(final);
 }
 
 function varGet(name) {

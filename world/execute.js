@@ -69,7 +69,7 @@ const timeline = [
   // Enhanced AC/DC section
   { time: 44.452, func: typeLine, args: { text: "Switch my current" } },
   {
-    time: 45.85,
+    time: 45.50,
     func: typeLine,
     args: { text: "To AC, to DC", onComplete: currentSwitch },
   },
@@ -471,10 +471,10 @@ function showProtectionShield() {
 
 // AC/DC Current Switch
 function currentSwitch() {
-  addClass({ target: container, className: "ac-mode", duration: 500 });
+  addClass({ target: container, className: "ac-mode", duration: 900 });
   setTimeout(() => {
-    addClass({ target: container, className: "dc-mode", duration: 500 });
-  }, 500);
+    addClass({ target: container, className: "dc-mode", duration: 900 });
+  }, 900);
 }
 
 // Blind Vision Effect (updated: no rotation)

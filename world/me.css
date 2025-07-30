@@ -254,10 +254,20 @@ html {
 }
 
 .ac-mode {
-  --text-color: #ff4444;
+  --text-color: #ff4444 !important;
 }
 .dc-mode {
-  --text-color: #4444ff;
+  --text-color: #4444ff !important;
+}
+
+/* Ensure AC/DC effects apply to all child elements */
+.ac-mode * {
+  color: var(--text-color);
+  text-shadow: 0 0 5px var(--text-color), 0 0 10px var(--text-color);
+}
+.dc-mode * {
+  color: var(--text-color);
+  text-shadow: 0 0 5px var(--text-color), 0 0 10px var(--text-color);
 }
 .blind {
   filter: blur(5px) brightness(0.3);
